@@ -1,4 +1,4 @@
-## This project is a fork of https://github.com/JakeHartnell/react-images-upload
+### This project is a fork of https://github.com/JakeHartnell/react-images-upload
 
 # Images uploader UI component
 
@@ -15,7 +15,7 @@ npm install --save react-images-upload
 ### Using Classes
 ```javascript
 import React from "react";
-import ImageUploader from "react-images-upload";
+import ImageUploader from "react-images-upload-update";
 
 class App extends React.Component {
   constructor(props) {
@@ -46,7 +46,7 @@ class App extends React.Component {
 ### Using Hooks
 ```javascript
 import React, { useState } from "react";
-import ImageUploader from "react-images-upload";
+import ImageUploader from "react-images-upload-update";
 
 const App = props => {
   const [pictures, setPictures] = useState([]);

@@ -1,3 +1,5 @@
+## This project is a fork of https://github.com/JakeHartnell/react-images-upload
+
 # Images uploader UI component
 
 Simple component for upload and validate (client side) images with preview built with React.js.

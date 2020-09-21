@@ -76,12 +76,12 @@ var ReactImageUploadComponent = function (_React$Component) {
     }
 
     /*
-     Load image at the beggining if defaultImage prop exists
+     Load image at the beginning if defaultImage prop exists
      */
 
   }, {
-    key: 'componentWillReceiveProps',
-    value: function componentWillReceiveProps(nextProps) {
+    key: 'UNSAFE_componentWillReceiveProps',
+    value: function UNSAFE_componentWillReceiveProps(nextProps) {
       if (nextProps.defaultImages !== this.props.defaultImages) {
         this.setState({ pictures: nextProps.defaultImages });
       }
